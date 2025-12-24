@@ -280,8 +280,6 @@ jobs:
             -DCMAKE_OSX_SYSROOT=${{ env.SDK }} \
             -DCMAKE_POSITION_INDEPENDENT_CODE=ON \
             -DOPUS_BUILD_PROGRAMS=OFF \
-            -DOPUS_VAR_ARRAYS=OFF \
-            -DOPUS_USE_ALLOCA=OFF \
             -DOPUS_NONTHREADSAFE_PSEUDOSTACK=ON
 
       - name: Build
